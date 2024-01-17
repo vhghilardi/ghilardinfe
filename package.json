@@ -1,18 +1,23 @@
 {
-  "name": "nfejs",
-  "description": "Parse NFE XML.",
-  "version": "0.0.5",
-  "author": "Guilherme Pacheco <guipacheco2@gmail.com>",
-  "main" : "./lib/main",
-  "directories" : {
-    "lib": "./lib"
+  "name": "ghilardinfe",
+  "version": "1.0.0",
+  "description": "Pacote para leitura de XML de NFE.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/guipacheco2/nfejs.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vhghilardi/ghilardinfe.git"
   },
-  "dependencies": {
-    "xml2js": "0.4.*",
-    "underscore": "1.5.*"
-  }
+  "keywords": [
+    "nfe",
+    "xml"
+  ],
+  "author": "Victor Henrique Baptista Ghilardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vhghilardi/ghilardinfe/issues"
+  },
+  "homepage": "https://github.com/vhghilardi/ghilardinfe#readme"
 }

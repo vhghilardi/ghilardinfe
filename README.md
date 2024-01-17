@@ -12,6 +12,7 @@ Pacote para leitura de NFE XML em objetos JavaScript.
     - [Emissor](#emissor)
     - [Endereco](#endereco)
     - [Identificador](#identificador)
+    - [Informações Adicionais](#informacoesad)
     - [Impostos](#impostos)
     - [Produtos](#produtos)
     - [Produto](#produto)
@@ -145,6 +146,10 @@ fs.readFile('nfe.xml','utf8',function(err, data) {
     - **Returns** `Number`
 - `getFinalidade`:
     - **Returns** `Number`
+
+### Informações Adicionais
+- `get`:
+    - **Returns** `Object` Inf. Ad. Fisco, Inf. Complementar.
 
 ### Impostos
 - `getImpostos`:

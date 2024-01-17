@@ -18,6 +18,7 @@ Pacote para leitura de NFE XML em objetos JavaScript.
     - [Produto](#produto)
     - [Produto COFINS](#produto-cofins)
     - [Produto ICMS](#produto-icms)
+    - [Produto IPI](#produto-ipi)
     - [Produto PIS](#produto-pis)
     - [Total](#total)
     - [Total ICMS](#total-icms)
@@ -217,6 +218,18 @@ fs.readFile('nfe.xml','utf8',function(err, data) {
 - `getBCSTRet`:
     - **Returns** `Number`
 - `getICMSSTRet`:
+    - **Returns** `Number`
+
+### Produto IPI
+- `get`:
+    - **Returns** `Object` cst, vBc, pIPI, vIPI
+- `getCST`:
+    - **Returns** `Number`
+- `getBC`:
+    - **Returns** `Number`
+- `getPercIPI`:
+    - **Returns** `Number`
+- `getValorIPI`:
     - **Returns** `Number`
 
 ### Produto PIS

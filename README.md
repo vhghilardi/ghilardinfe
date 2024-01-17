@@ -1,6 +1,6 @@
-# NFE.js - Alpha
+# GhilardiNFE - Alpha
 
-NFE XML em objetos JavaScript.
+Pacote para leitura de NFE XML em objetos JavaScript.
 
 ## Table of contents
 
@@ -26,16 +26,16 @@ NFE XML em objetos JavaScript.
 ## Quick start
 
 ```sh
-$ npm install nfejs
+$ npm install ghilardinfe
 ```
 
 **app.js**
 ```javascript
 var fs = require('fs'),
-    nfejs = require('nfejs');
+    ghilardinfe = require('ghilardinfe');
 
 fs.readFile('nfe.xml','utf8',function(err, data) {
-  nfejs(data, function(err, nfe) {
+  ghilardinfe(data, function(err, nfe) {
     console.log(nfe.emissor.getNome());
   });
 });

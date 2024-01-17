@@ -1,8 +1,8 @@
 var fs = require('fs'),
-    nfejs = require('../lib/main');
+    ghilardinfe = require('../lib/main');
 
 fs.readFile('nfe.xml','utf8',function(err, data) {
-  nfejs(data, function(err, nfe) {
+  ghilardinfe(data, function(err, nfe) {
     nfe.cobranca.get();
     nfe.cobranca.getNumParcelas();
     nfe.cobranca.getParcelas();

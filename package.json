@@ -1,6 +1,6 @@
 {
   "name": "ghilardinfe",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "description": "Pacote para leitura de NFE XML em objetos JavaScript.",
   "main" : "./lib/main",
   "directories" : {
